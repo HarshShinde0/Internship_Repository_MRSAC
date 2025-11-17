@@ -1,0 +1,47 @@
+# Exclude all TIFF files
+*.tif
+*.tiff
+*.TIF
+*.TIFF
+
+# Exclude auxiliary files
+*.aux.xml
+
+# Exclude data folder (contains satellite images)
+data/
+
+# Exclude clipped images
+Clipped_Images/
+
+# Exclude shapefiles and related files (if not needed in repo)
+NGP SHP/
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+*.fix
+
+# Exclude Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Exclude temporary files
+*.tmp
+*.temp
+*~
+
+# Exclude OS specific files
+.DS_Store
+Thumbs.db
+
+# Exclude IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Include only Results folder contents
+# Everything else is excluded by default with this approach
